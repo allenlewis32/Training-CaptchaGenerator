@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="generateCaptcha()">
+	  <div class='main'>
+      <div class='captchaGenerator'>
+        <h1>Captcha Generator</h1>
+        <div class='captcha' id="captcha">{captcha}</div>
+        <input id='checkCaptcha' placeholder='Enter captcha'/>
+        <div id='result'></div>
+        <button type='button' onclick="check()">Check</button>
+        <button type='button' onclick="generateCaptcha()">Generate new</button>
+      </div>
+    </div>
+    <script src='script.js'></script>
+  </body>
+</html>
